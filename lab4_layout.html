@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya - Single Page dengan Form Kontak</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Adam aliyazid</h1>
+        <p>Web Developer | Designer | Kreator Konten</p>
+        <nav>
+            <ul>
+                <li><a href="#container">container</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#portofolio">portofolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah mahasiswa Universitas Pelita Bangsa dengan juransan teknik informatika.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Keahlian</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">UI/UX Design</span>
+            </div>
+        </section>
+
+        <section id="portofolio">
+            <h2>Portofolio</h2>
+            <div class="portfolio-item">
+                <h3>E-commerce Website</h3>
+                <p>Mengembangkan platform e-commerce yang responsif menggunakan React untuk frontend dan Node.js untuk backend. Fitur termasuk sistem keranjang belanja real-time dan integrasi pembayaran.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Hubungi Saya</h2>
+            <form class="contact-form">
+                <div>
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="subject">Subjek:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div>
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
